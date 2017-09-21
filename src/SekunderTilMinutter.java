@@ -1,9 +1,14 @@
 import java.util.Scanner;
 
+//https://github.com/SaneStreet/SekunderTilMinutter
+//@SaneStreet
+//Lavet d. 21-09-2017
+//Programmering i 1. Semester
+/*_________________________________________*/
 public class SekunderTilMinutter {
     public static void main(String[] args) {
         //Scanner der spørger efter et input fra brugeren:
-        System.out.println("Indtast antal sekunder: ");
+        System.out.print("Indtast antal sekunder: ");
         Scanner input = new Scanner(System.in);
         //Variablerne antalSekunder, minutterRes og sekunderRes:
         //antalSekunder er sekunder du indtaster.
